@@ -14,6 +14,7 @@ if (len(word1) == 3) :
             print("오답입니다")
             
             break
+        break
 
 
 else:
