@@ -1,0 +1,53 @@
+h1{
+    background:black;
+    color:white;
+}
+p{
+    font-weight:bold;
+    font-size:0.5rem;
+}
+h1{
+    color:green;
+}
+.red-color{
+    color:red;
+}
+#myid{
+    color:yellow;
+}
+
+/*미디어쿼리-768은 일반적인 태블릿 크기*/
+@media(max-width:768px){
+    body{
+        background:brown;
+    }
+}
+
+div{
+    border:1px solid black;
+    display:inline-block;
+    width:70px;
+    height:120px;
+    padding:10px 20px;
+    box-sizing:border-box;
+    /*박스사이즈가유지되면서마진패딩이들어감*/
+    margin:10px;
+    font-size:0.5rem;
+    text-align:center;
+}
+
+#box3{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+
+    position:absolute;/*전체구조잡는애*/
+    top:20px;
+    bottom:20px;
+    /*기본적인 속성은 relative
+    absolute/ fixed*/
+}
+
+html,body{
+    min-height:1000px;
+}
